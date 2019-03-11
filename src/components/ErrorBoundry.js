@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-
+//handling error for deploy app
+//not showing in development
 class ErrorBoundary extends Component {
   constructor (props) {
     super(props)
